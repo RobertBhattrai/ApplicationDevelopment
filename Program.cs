@@ -1,2 +1,64 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //// Task 1: Variables and DataTypes
+            //Console.WriteLine("Task 1");
+
+            ////Declaring variables
+            //string userName;
+            //int luckyNumber;
+
+            ////Initializing variables
+            //userName = "Safal";
+            //luckyNumber = 7;
+
+            ////Printing output
+            //Console.WriteLine("Hello, "+userName+"! Your lucky number is "+luckyNumber);
+
+            ////Task 2: Constants
+            //const double Pi = 3.14;
+            ////Printing Pi value without modifying
+            //Console.WriteLine(Pi);
+
+            ////Trying to modify pi
+            ////Pi = Pi + 1;
+
+            //int r = 7; //Radius
+            //Console.WriteLine("Area: "+(r*r)*Pi);
+            //Console.WriteLine("Circumferences: "+2*Pi*r);
+
+            ////Task 3: Data Types and Type Conversion
+            //byte b = 1;
+            //short s = 254;
+            //int i = 42;
+            //long l = 13987;
+            //float f = 1.0f;
+            //double d = 3.12;
+            //decimal de = 10;
+            //char c = 'C';
+            //bool boo = true;
+
+
+            ////converting integer value
+            //String str = i.ToString();
+            //String pi = "3.14";
+            //double pie = double.Parse(pi);
+
+            //Console.WriteLine("Printing Variables");
+            //Console.WriteLine($"Converting int to str: {str}\nConverting string to double: {pie}");
+            //Console.WriteLine($"Byte: {b}\nShort: {s}\nInteger: {i}\nLong: {l}\nFloat: {f}\nDouble: {d}\nDecimal: {de}\nCharacter: {c}\nBoolean: {boo}");
+
+
+            //Task 4: Array and Array methods
+            //Single-dimensional integer array
+            int[] arr = [1, 2, 6, 4, 5, 3];
+            Console.WriteLine(arr[1]);
+
+        }
+    }
+}
