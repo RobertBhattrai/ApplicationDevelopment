@@ -54,10 +54,22 @@ namespace HelloWorld
             //Console.WriteLine($"Byte: {b}\nShort: {s}\nInteger: {i}\nLong: {l}\nFloat: {f}\nDouble: {d}\nDecimal: {de}\nCharacter: {c}\nBoolean: {boo}");
 
 
-            //Task 4: Array and Array methods
-            //Single-dimensional integer array
-            int[] arr = [1, 2, 6, 4, 5, 3];
-            Console.WriteLine(arr[1]);
+            ////Task 4: Array and Array methods
+            ////Single-dimensional integer array
+            //int[] arr = [1, 2, 6, 4, 5, 3];
+            ////Sorting array in ascending order
+            //Array.Sort(arr);
+            ////Reversing array
+            //Array.Reverse(arr);
+
+            ////Printing array elements
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.WriteLine(arr[i]);
+            //}
+            ////Finding index of an element
+            //Console.WriteLine("Index of element '2': "+Array.IndexOf(arr,2));
+
 
         }
     }
