@@ -70,7 +70,39 @@ namespace HelloWorld
             ////Finding index of an element
             //Console.WriteLine("Index of element '2': "+Array.IndexOf(arr,2));
 
+            //Task 5: Generic Collections
+            Console.WriteLine("Task 5");
+            //Creating a list of strings
+            List<string> fruits = new List<string>() {"Apple","Mango","Orange"};
+         
+            //Adding elements to the list
+            fruits.Add("Banana");
 
+            //Removing an element from the list
+            fruits.Remove("Mango");
+
+            //Iterating through the list and printing elements
+            foreach (string fruit in fruits)
+            {
+                Console.WriteLine(fruit);
+            }
+
+            //Creating a dictionary to store fruit IDs and fruit names 
+            Dictionary<int, string> fruitDict = new Dictionary<int, string>() 
+            {
+                {1, "Apple"},
+                {2, "Mango"},
+                {3, "Orange"}
+            };
+
+            //Adding a new key-value pair to the dictionary
+            fruitDict.Add(4, "Banana");
+
+            //Printing all key-value pairs in the dictionary
+            foreach (KeyValuePair<int, string> kvp in fruitDict)
+            {
+                Console.WriteLine("Fruit ID: " + kvp.Key + ", Fruit Name: " + kvp.Value);
+            }
         }
     }
 }
