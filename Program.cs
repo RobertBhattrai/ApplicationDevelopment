@@ -87,6 +87,25 @@ namespace HelloWorld
                 Console.WriteLine(fruit);
             }
 
+            //// 1. Create a DateTime variable representing your birthdate
+            //DateTime birthDate = new DateTime(2003, 5, 20); // <-- change to your birthdate
+
+            //// 2. Create another DateTime variable representing the current date and time
+            //DateTime currentDate = DateTime.Now;
+
+            //// 3. Calculate your age using TimeSpan (difference between current and birthdate)
+            //TimeSpan ageSpan = currentDate - birthDate;
+            //int ageYears = (int)(ageSpan.Days / 365.25); // approximate conversion to years
+            
+            //// 4. Print the birthdate, current date, and calculated age
+            //Console.WriteLine("Birthdate: " + birthDate.ToShortDateString());
+            //Console.WriteLine("Current Date: " + currentDate);
+            //Console.WriteLine("Your Age: " + ageYears + " years");
+            
+            //// 5. Add 10 days to your birthdate and print the new date
+            //DateTime newDate = birthDate.AddDays(10);
+            //Console.WriteLine("Birthdate + 10 days: " + newDate.ToShortDateString());
+
             //Creating a dictionary to store fruit IDs and fruit names 
             Dictionary<int, string> fruitDict = new Dictionary<int, string>() 
             {
